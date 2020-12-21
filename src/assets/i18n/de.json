@@ -1,0 +1,19 @@
+{
+    "appTitle": "RelaxiNature",
+    "title_relax": "Natur",
+    "title_meditation": "Meditation",
+    "sl_relax": "Natur",
+    "sl_meditation": "Meditation",
+    "dc_sea": "Meer",
+    "dc_fire": "Feuer",
+    "dc_river": "Fluss",
+    "dc_forest": "Wald",
+    "dc_wind": "Wind",
+    "dc_desert": "Wüste",
+    "dc_rain": "Regen",
+    "dc_snow": "Schneefall",
+    "dm_dialog_title": "Herzliche Glückwünsche!",
+    "dm_dialog_message": "Du hast deine Meditationssitzung beendet, mach weiter so.",
+    "dm_error_title": "Kein Internetzugang",
+    "dm_error_message": "Stellen Sie sicher, dass Sie über einen Internetzugang verfügen."
+}

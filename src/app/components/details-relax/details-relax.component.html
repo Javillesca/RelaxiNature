@@ -1,0 +1,15 @@
+<div class="div-gif" style="background-image: url('{{detail.gif}}');" (click)="onAction()">
+  <audio #aSound autoplay loop [volume]="value">
+      <source [src]="detail.sound">
+  </audio>
+</div>
+<div class="div-controls">
+  <i class="fas fa-volume-up icon-volume"></i>
+  <mat-slider
+      [invert]="false"
+      [max]="1"
+      [min]="0"
+      [step]="0.1"
+      [(ngModel)]="value">
+  </mat-slider>
+</div>

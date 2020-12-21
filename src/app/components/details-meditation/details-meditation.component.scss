@@ -1,0 +1,64 @@
+
+.div-gif { 
+    display: block;
+    height: 650px; 
+    max-height:100%;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.div-controls {
+    position : fixed;
+    text-align: center; 
+    bottom: 5px;
+    width: 95%;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position : fixed;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    bottom: 50%;
+}
+
+.icon-volume {
+    color: whitesmoke;
+    font-size: large;
+}
+
+.spinner {
+    background-color: rgba(206, 206, 206, 0.24);
+    border-radius: 50%;
+}
+
+mat-slider {
+    width: 80%;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+.div2 {
+  z-index:100;
+  position:absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span {
+    color: whitesmoke;
+    margin: 2px;
+}
+
+.i-fas {
+    margin-right: 10px;
+    color: whitesmoke;
+    
+}

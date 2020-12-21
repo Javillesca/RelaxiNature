@@ -1,0 +1,29 @@
+<div class="container-fluid">
+  <div class="row ">
+      <div class="col-12">
+          <app-carousel id="carousel" [items]="oCarrouselData" (selected)="getSelected($event)"></app-carousel>
+      </div>
+  </div>
+</div>
+<div style="text-align: center;">
+  <div class="row actionsTime">
+      <div class="col-12">
+          <div class="btn-constrols">
+              <button button mat-mini-fab color="accent" (click)="onTimeSubtract()"
+                  class="btn btn-outline-light">
+                  <i class="fas fa-minus dsc-carousel_button"></i>
+              </button>
+              <span>{{ time }} {{ timeFormat }}</span>
+              <button button mat-mini-fab color="accent" (click)="onTimeAdd()"
+                  class="btn btn-outline-light">
+                  <i class="fas fa-plus dsc-carousel_button"></i>
+              </button>
+              <div class="btn-play">
+                  <button mat-fab color="accent" (click)="navTo()" class="btn btn-outline-light">
+                    <i class="fas fa-play"></i>
+                  </button>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>

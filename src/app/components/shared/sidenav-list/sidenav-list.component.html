@@ -1,0 +1,34 @@
+<mat-nav-list>
+    <div class="header" color="secondary">
+        <img class="img-icon" src="./assets/icon/favicon.png" >
+        <span class="span-title">{{ 'appTitle' | translate }}</span>
+        
+    </div>
+    <div class="divOption relaxNav" (click)="navigateTo('relax')" >
+        <i class="fas fa-leaf"></i><span>{{ 'title_relax' | translate }}</span>
+    </div>
+    <div class="divisor"></div>
+    <div class="divOption" (click)="navigateTo('meditation')" >
+        <i class="fab fa-medium"></i><span>{{ 'title_meditation' | translate }}</span>
+    </div> 
+    <div class="divisor"></div>
+    <section class="options-section">
+        <button mat-fab color="accent" class="btn btn-outline-light btn-theme" (click)="changeTheme()">
+            <i class="fas fa-palette icon-palette"></i>
+        </button>
+        <div class="fab-container">
+            <div class="fab fab-icon-holder">
+                <img src="{{imgLang}}">
+            </div>
+            <ul id="ulOptions" class="fab-options">
+                <li *ngFor="let lang of languages">
+                    <button mat-menu-item (click)="onChangeLanguage(lang)">
+                        <div class="fab-icon-holder">
+                            <img src="./assets/icon/{{lang}}.png" >
+                        </div>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </section>
+</mat-nav-list>

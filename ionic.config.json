@@ -1,0 +1,7 @@
+{
+  "name": "relaxnature",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

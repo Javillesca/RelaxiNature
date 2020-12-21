@@ -1,0 +1,103 @@
+@import "src/Themes/themePurple.scss";
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position : absolute;
+    background-color: $primary;
+    top: 0%;
+    width: 100%;
+    height: 40px;
+}
+
+.img-icon {
+    width: 30px;
+    height: 30px;
+}
+
+span {
+    padding-left: 6px;
+}
+
+.span-title {
+    font-size: x-large;
+    font-style: italic;
+    color: white;
+}
+
+.divOption {
+    padding-left: 6px;
+}
+
+.relaxNav {
+    margin-top: 50px;
+}
+
+.divisor {
+    height: 1px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: $primary;
+}
+
+.options-section {
+    display: flex;
+    align-content: flex-end;
+    align-items: flex-end;
+    position : absolute;
+    height: 100%;
+    bottom: 2px;
+    right: 2px;
+}
+
+.btn-theme {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.icon-palette{
+    font-size: large;
+}
+
+.fab-container {
+    position: flex;
+    right: 2px;
+    z-index: 999;
+}
+
+.fab-icon-holder {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: transparent;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+.fab-options {
+    list-style-type: none;
+    margin: 0;
+    position: absolute;
+    bottom: 70px;
+    right: 2px;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.fab:hover + .fab-options, .fab-options:hover {
+    opacity: 1;
+}
+
+.fab-options, .fab-options:hover {
+    opacity: 0;
+}
+
+
+.fab-options li {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}

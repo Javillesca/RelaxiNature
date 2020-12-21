@@ -1,0 +1,19 @@
+{
+    "appTitle": "RelaxiNature",
+    "title_relax": "Природа",
+    "title_meditation": "Медитация",
+    "sl_relax": "Природа",
+    "sl_meditation": "Медитация",
+    "dc_sea": "Море",
+    "dc_fire": "Огонь",
+    "dc_river": "Река",
+    "dc_forest": "Лес",
+    "dc_wind": "Ветер",
+    "dc_desert": "Пустыня",
+    "dc_rain": "Дождь",
+    "dc_snow": "Снегопад",
+    "dm_dialog_title": "Поздравляю!",
+    "dm_dialog_message": "вы закончили сеанс медитации. Так держать.",
+    "dm_error_title": "Нет доступа в Интернет",
+    "dm_error_message": "Убедитесь, что у вас есть доступ в Интернет."
+}
